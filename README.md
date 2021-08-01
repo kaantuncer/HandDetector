@@ -21,7 +21,7 @@ In drawing mode the program tracks the highest point of the users hand. The user
 
 ### Linux
 
-The program needs OpenCv to run. You can follow [this](https://docs.opencv.org/4.5.2/d7/d9f/tutorial_linux_install.html) guide for more detailed explanation .
+The program needs C++ and OpenCv to run. You can follow [this](https://docs.opencv.org/4.5.2/d7/d9f/tutorial_linux_install.html) guide for more detailed explanation. It also needs cmake to build which can be found [here](https://cmake.org/install/).
 
 ```bash
 $ git clone https://github.com/kaantuncer/HandDetector.git
