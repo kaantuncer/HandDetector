@@ -11,4 +11,6 @@ At startup, the program asks the user to place their hand in the middle of the c
 
 ### Drawing Mode
 
+In drawing mode the program tracks the highest point of the users hand. The user can spawn rectangles,circles,triangles and arrows using the specified keys. The user can also start/stop drawing using the 'D' key. Spawned objects stick to the highest point if the point is inside them for more than 2 seconds. The user can also relase the carried object by not moving for 2 seconds.
+
 ![Drawing GIF](./drawingModeGif.gif)
