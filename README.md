@@ -18,3 +18,12 @@ In drawing mode the program tracks the highest point of the users hand. The user
 ![Drawing GIF](./drawingModeGif.gif)
 
 ## How to Run
+
+### Linux
+
+The program needs OpenCv to run. You can follow [this](https://docs.opencv.org/4.5.2/d7/d9f/tutorial_linux_install.html) guide for more detailed explanation .
+
+```bash
+$ git clone https://github.com/kaantuncer/HandDetector.git
+$ cd HandDetector
+```
