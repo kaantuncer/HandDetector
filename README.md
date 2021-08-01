@@ -7,6 +7,8 @@ At startup, the program asks the user to place their hand in the middle of the c
 
 ##Finger Tracking Mode
 
+![Finger Tracking Gif](https://media.giphy.com/media/SxIcXxRvDbxwgCGDIj/giphy.gif)
+
 ##Drawing Mode
 
 ![Drawing GIF](./drawingModeGif.gif)
