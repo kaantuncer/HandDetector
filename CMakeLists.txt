@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( Main )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable(Main Main.cpp MaskManager.h MaskManager.cpp HandDetection.h HandDetection.cpp Shape.cpp Shape.h Rectangle.cpp Rectangle.h Circle.cpp Circle.h Triangle.cpp Triangle.h Line.cpp Line.h )
+target_link_libraries( Main ${OpenCV_LIBS} )
